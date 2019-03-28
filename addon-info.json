@@ -1,0 +1,18 @@
+{
+  "name": "facade",
+  "author": "Alexei Robyn <shados@shados.net>",
+  "maintainer": "Alexei Robyn <shados@shados.net>",
+  "description": "A MoonScript wrapper around the Lua neovim API",
+  "detailed": "A MoonScript wrapper around the Lua neovim API",
+  "homepage": "https://github.com/Shados/facade.nvim",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Shados/facade.nvim"
+  },
+  "dependencies": {
+    "earthshine": {
+      "type": "git",
+      "url": "git://github.com/Shados/earthshine"
+    }
+  }
+}

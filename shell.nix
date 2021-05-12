@@ -28,6 +28,7 @@ pkgs.mkShell {
     lua-repl moor
 
     busted
+    earthshine
   ];
   shellHook = ''
     export LUA_PATH="$(pwd)/lua/?.lua;''${LUA_PATH}"
